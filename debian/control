@@ -83,7 +83,7 @@ Package: pim-sieve-editor
 Section: mail
 Architecture: any
 Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
-Homepage: http://akregator.kde.org/
+Replaces: kmail (<< 4:16.11)
+Breaks: kmail (<< 4:16.11)
 Description: An IMAP Sieve filter editor
  An application to assist with editing IMAP Sieve filters.
- .
