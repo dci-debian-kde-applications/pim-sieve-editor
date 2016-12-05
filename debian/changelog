@@ -1,4 +1,4 @@
-pim-sieve-editor (4:16.08.0-0neon) xenial; urgency=medium
+pim-sieve-editor (4:16.11.90-0neon) xenial; urgency=medium
 
   * Initial release based on the split of kdepim
 
