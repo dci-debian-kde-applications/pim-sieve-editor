@@ -1,8 +1,11 @@
 #!/usr/bin/make -f
 
+l10npkgs_firstversion_ok := 4:17.03.90-0~
+
 KDEPIM_RUNTIME_VERSION = 4:15.07.90
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
