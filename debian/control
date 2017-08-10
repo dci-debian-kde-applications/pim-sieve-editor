@@ -62,7 +62,6 @@ Build-Depends: cmake (>= 2.8.12~),
                libphonon4qt5experimental-dev,
                libqt5opengl5-dev (>= 5.5.0~),
                libqt5webchannel5-dev | libqt5webchannel-dev,
-               qtwebengine5-dev | libqt5webengine5-dev,
                libqt5webkit5-dev (>= 5.5.0~),
                libqt5x11extras5-dev (>= 5.4.0~),
                libx11-dev,
@@ -71,6 +70,7 @@ Build-Depends: cmake (>= 2.8.12~),
                qtbase5-dev (>= 5.5.0~),
                qtdeclarative5-dev (>= 5.4.0~),
                qttools5-dev (>= 5.5.0~),
+               qtwebengine5-dev | libqt5webengine5-dev,
                shared-mime-info,
                xsltproc,
                zlib1g-dev
@@ -83,7 +83,7 @@ Package: pim-sieve-editor
 Section: mail
 Architecture: any
 Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
-Replaces: kmail (<< 4:16.11)
-Breaks: kmail (<< 4:16.11)
-Description: An IMAP Sieve filter editor
+Replaces: kmail (<< 4:16.11), ${kde-l10n:all}
+Breaks: kmail (<< 4:16.11), ${kde-l10n:all}
+Description: IMAP Sieve filter editor
  An application to assist with editing IMAP Sieve filters.
