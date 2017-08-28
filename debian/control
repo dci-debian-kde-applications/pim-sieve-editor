@@ -37,10 +37,12 @@ Architecture: any
 Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
 Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
           kde-l10n-eo (<< 4:17.03.90-0~),
+          kdepim-doc (<< 4:17.08~),
           kmail (<< 4:16.11),
           ${kde-l10n:all},
 Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
         kde-l10n-eo (<< 4:17.03.90-0~),
+        kdepim-doc (<< 4:17.08~),
         kmail (<< 4:16.11),
         ${kde-l10n:all},
 Description: IMAP Sieve filter editor
