@@ -35,7 +35,13 @@ Package: pim-sieve-editor
 Section: mail
 Architecture: any
 Depends: kinit, kio, ${misc:Depends}, ${shlibs:Depends}
-Replaces: kmail (<< 4:16.11), ${kde-l10n:all}
-Breaks: kmail (<< 4:16.11), ${kde-l10n:all}
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          kmail (<< 4:16.11),
+          ${kde-l10n:all},
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        kmail (<< 4:16.11),
+        ${kde-l10n:all},
 Description: IMAP Sieve filter editor
  An application to assist with editing IMAP Sieve filters.
