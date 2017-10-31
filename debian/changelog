@@ -1,3 +1,10 @@
+pim-sieve-editor (4:17.08.0-2~) UNRELEASED; urgency=medium
+
+  * New revision
+  * Update uploaders list as requested by MIA team
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 18:04:10 +0100
+
 pim-sieve-editor (4:17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
