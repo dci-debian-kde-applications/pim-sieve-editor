@@ -8,6 +8,7 @@ pim-sieve-editor (4:17.08.3-1) UNRELEASED; urgency=medium
   * New upstream release (17.08.3).
   * Bump Standards-Version to 4.1.2 (No changes needed).
   * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
+  * Bump debhelper build-dep and compat to 10.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Dec 2017 13:44:06 +0100
 
